@@ -2210,6 +2210,13 @@ input, select, textarea {
 			padding-top: 1.5em;
 		}
 
+		#headshot{
+			border-radius: 50%;
+			/* width: 30%; */
+			height: 40%;
+		}
+
+
 /* Main Sections */
 
 	.main {
@@ -2264,6 +2271,46 @@ input, select, textarea {
 				padding-top: 0;
 				background: #fff;
 			}
+
+
+
+	.row i{
+		font-size: 150px;
+	}
+	.row svg{
+		width: 180px;
+		height: 180px;
+	}
+
+	.i-and-text, .svg-and-text{
+		position: relative;
+		width:180px;
+		height: 180px;
+	}
+	.i-and-text i{
+		font-size: 120px;
+    margin-left: 10px;
+	}
+	.i-and-text span, .svg-and-text span{
+		font-size: 30px;
+		position: absolute;
+    left: 50%;
+    top: 100%;
+		color: rgb(221, 221, 221);
+    font-weight: 300;
+	}
+	.i-and-text span{
+		transform: translate(-50%, -100%) translate(10px, -2px);
+	}
+	.svg-and-text span{
+		transform: translate(-50%, -100%) translate(5px, -2px);
+	}
+
+	.svg-and-text svg{
+		width:130px;
+		height: 130px;
+	}
+	
 
 /* Footer */
 
