@@ -2273,11 +2273,11 @@ input, select, textarea {
 			}
 
 	.pic-div-1{
-		height: 200px;
+		height: 400px;
 	}
 
 	#skills-header{
-		padding: 20px 0;
+		padding: 30px 0;
 	}
 
 	.navigation	{
@@ -2352,13 +2352,22 @@ input, select, textarea {
 	}	
 	.contact-div span{
 		margin-left: 90px;
+		font-size: 20px;
 	}
 	.contact-div i{
-		font-size: 80px;
+		font-size: 75px;
 		margin-left: 50px;
 	}
 	.contact-div a{
 		border-bottom: none;
+	}
+
+	#fourth .row, #fourth .contact-me{
+		width: 100%;
+	}
+
+	#fourth .content{
+		padding-bottom: 200px;
 	}
 
 /* Footer */
