@@ -2290,8 +2290,10 @@ input, select, textarea {
 	.navigation a{
 		width: 150px;
 		padding: 11px 0;
-
 	}
+
+
+
 
 	.row i{
 		font-size: 150px;
@@ -2329,7 +2331,35 @@ input, select, textarea {
 		width:130px;
 		height: 130px;
 	}
-	
+
+
+	.projects div section img{
+		width: 300px;
+		height: auto;
+		margin-bottom: 20px;
+	}
+
+	.projects a{
+		border-bottom: none;
+	}
+
+	.contact-div {
+		display: flex;
+		align-items: center;
+	}
+	.contact-div h3{
+		margin: 25px 0;
+	}	
+	.contact-div span{
+		margin-left: 90px;
+	}
+	.contact-div i{
+		font-size: 80px;
+		margin-left: 50px;
+	}
+	.contact-div a{
+		border-bottom: none;
+	}
 
 /* Footer */
 
