@@ -2216,6 +2216,10 @@ input, select, textarea {
 			height: 40%;
 		}
 
+		#first p{
+			font-size: 20px;
+		}
+
 
 /* Main Sections */
 
@@ -2232,7 +2236,7 @@ input, select, textarea {
 		}
 
 			.main > header h2 {
-				font-size: 2.25em;
+				font-size: 2.75em;
 				font-weight: 100;
 				margin-bottom: 0;
 			}
@@ -2272,9 +2276,9 @@ input, select, textarea {
 				background: #fff;
 			}
 
-	.pic-div-1{
+	/* .pic-div-1{
 		height: 400px;
-	}
+	} */
 
 	#second .row .row {
 		display: flex;
@@ -2282,7 +2286,7 @@ input, select, textarea {
 	}
 
 	#skills-header{
-		padding: 30px 0;
+		/* padding: 30px 0; */
 	}
 
 	.navigation	{
@@ -2301,6 +2305,13 @@ input, select, textarea {
 	}
 
 
+	#education h3{
+		font-size: 30px;
+		margin-bottom: 5px;
+	}
+	#education p{
+		font-size: 19px;
+	}
 
 
 	.row i{
