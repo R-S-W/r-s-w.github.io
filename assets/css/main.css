@@ -2276,9 +2276,9 @@ input, select, textarea {
 				background: #fff;
 			}
 
-	/* .pic-div-1{
-		height: 400px;
-	} */
+	.pic-div-1{
+		height: 300px;
+	}
 
 	#second .row .row {
 		display: flex;
@@ -2386,6 +2386,7 @@ input, select, textarea {
 	}
 
 	#fourth .content{
+		padding-top: 50px;
 		padding-bottom: 200px;
 	}
 
